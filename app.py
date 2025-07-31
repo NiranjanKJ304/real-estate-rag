@@ -22,7 +22,7 @@ EMBEDDING_MODEL = "embedding-001"
 GENERATIVE_MODEL = "gemini-2.5-pro"
 VECTOR_DIM = 768
 DATA_DIR = "data"
-API_KEY = os.getenv("GOOGLE_API_KEY", "AIzaSyATSdeID5SNF5COy80XWF3ofTA6Eyq6Ze0")  # Replace with your key or use env variable
+API_KEY = os.getenv("GOOGLE_API_KEY", "your_gemini_api_key")  # Replace with your key or use env variable
 
 # State management
 state = {
