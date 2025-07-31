@@ -118,28 +118,7 @@ bashpip install -r requirements.txt
 UI Not Loading: Ensure an internet connection for Tailwind CSS and Google Fonts CDNs. Check browser console (F12) for errors.
 File Upload Fails: Use valid CSV/Excel or PDF files. Test with small sample files.
 
-Development
-Customizing the UI
-
-Modify the HTML_TEMPLATE string in app.py to adjust styling or layout.
-Update Tailwind CSS classes or custom <style> tags for design changes.
-
-Extending Functionality
-
-Add new quick actions by extending the sendQuickAction function and /quick-action route.
-Enhance the generate_intelligent_response function for new query types.
-
-Contributing
-
-Fork the repository.
-Create a branch: git checkout -b feature-branch.
-Commit changes: git commit -m "Add new feature".
-Push to the branch: git push origin feature-branch.
-Submit a pull request.
-
-
 Google for the GenerativeAI API.
-Tailwind CSS and Orbitron font for UI design.
 
 Contact
 For support, email: niranjan.kj2022ai-ds@sece.ac.in
